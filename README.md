@@ -1,2 +1,2 @@
 # store_bking
-store bking
+https://bking.store/
