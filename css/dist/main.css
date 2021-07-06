@@ -1,0 +1,108 @@
+/* Variables */
+body {
+  font-family: "Tajawal", sans-serif;
+}
+@media (max-width: 480px) {
+  body .site .top-menu.border-bottom {
+    display: none;
+  }
+}
+
+.top-menu.border-bottom {
+  height: 40px;
+}
+
+.site-header .custom-logo {
+  width: 150px;
+}
+.site-header .aws-search-btn.aws-form-btn {
+  background-color: #fff;
+  border-right: none;
+  border-radius: 5px 0px 0px 5px !important;
+}
+.site-header .aws-search-field {
+  border-left: none;
+  border-radius: 0px 5px 5px 0px !important;
+}
+.site-header .cart .bi-cart {
+  color: #7F18FF;
+}
+.site-header .cart .cart-customlocation {
+  color: #404B5C;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .nav-header {
+    position: relative;
+  }
+  .nav-header .cart {
+    position: absolute;
+    top: 6px;
+  }
+  .nav-header .custom-logo {
+    padding-bottom: 5px;
+  }
+}
+.main-navigation {
+  background-color: #24008C;
+}
+.main-navigation .menu-item a {
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+}
+.main-navigation .menu-item a:hover {
+  background-color: #00D2D2;
+}
+.main-navigation .current-menu-item {
+  background-color: #00D2D2;
+}
+
+button.menu-toggle {
+  background-color: #24008C;
+  color: #fff;
+  border: none;
+}
+
+/*** start Categories ***/
+/*** end Categories ***/
+.service .sub-service {
+  background-color: #F2F7FB;
+}
+.service .sub-service p {
+  margin: 0;
+  color: #404B5C;
+}
+
+footer .darckBlue-color {
+  background-color: #24008C;
+}
+footer .darckBlue-color .widget {
+  color: #F2F7FB;
+  padding: 2rem 0 0.1rem 0;
+}
+footer .darckBlue-color .widget .title {
+  font-size: 1.3rem;
+}
+footer .darckBlue-color .widget .menu-top-categories-container .menu, footer .darckBlue-color .widget .menu-liens-utiles-container .menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+footer .darckBlue-color .widget .menu-top-categories-container .menu .menu-item, footer .darckBlue-color .widget .menu-liens-utiles-container .menu .menu-item {
+  margin-bottom: 0.1rem;
+}
+footer .darckBlue-color .widget .menu-top-categories-container .menu .menu-item a, footer .darckBlue-color .widget .menu-liens-utiles-container .menu .menu-item a {
+  color: #F2F7FB;
+  text-decoration: none;
+}
+
+.popular-products .add_to_cart_button, .new-products .add_to_cart_button {
+  display: block !important;
+  text-align: center;
+}
+
+.add_to_cart_button {
+  display: block !important;
+  text-align: center;
+}
